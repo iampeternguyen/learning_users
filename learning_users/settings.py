@@ -16,6 +16,8 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -26,7 +28,7 @@ SECRET_KEY = '-1q2u(4c=r8f&hvf$+2+9qrjw)3gr+5r#g5xgr^n-s2@yk@v1h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['limitless-earth-68315.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'limitless-earth-68315.herokuapp.com']
 
 
 # Application definition
