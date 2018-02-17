@@ -26,7 +26,7 @@ SECRET_KEY = '-1q2u(4c=r8f&hvf$+2+9qrjw)3gr+5r#g5xgr^n-s2@yk@v1h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['limitless-earth-68315.herokuapp.com']
 
 
 # Application definition
